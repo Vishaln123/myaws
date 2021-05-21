@@ -12,6 +12,7 @@ env:
 Jobs:
   Build:
     EC2Instance: 
+        region: US East (N. Virginia)us-east-1
         AvailabilityZone: us-east-1a
         Image: ami-0b0c2121aebf219f4
         InstanceType: t2.micro
